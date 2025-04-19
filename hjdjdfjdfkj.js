@@ -4,4 +4,4 @@ setTimeout(() => {
 
 setTimeout(() => {
     document.location.href = 'https://google.com'
-}, 15000);
+}, 20000);
